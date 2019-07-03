@@ -89,6 +89,7 @@ nav ul li {
     margin-left: auto;
     border-radius: 10px;
     box-shadow: 0 0 5px black;
+    filter:drop-shadow(5px 9px 2px grey);
 }
 
 #coluna3_content_page .spot_main .sinopse_main .images_content_page {
@@ -111,6 +112,7 @@ nav ul li {
     margin-left: auto;
     border-radius: 10px;
     box-shadow: 0 0 5px black;
+    filter:drop-shadow(5px 9px 2px grey);
 }
 
 .images_right {
@@ -121,6 +123,7 @@ nav ul li {
     margin-left: auto;
     border-radius: 10px;
     box-shadow: 0 0 5px black;
+    filter:drop-shadow(5px 9px 2px grey);
 }
 
 
