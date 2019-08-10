@@ -1,107 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Best Movies - Movies and Series</title>
-        <link href="best_movies.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesteste.css">
+    <title>TESTES GRID</title>
+</head>
 
-    </head>
-
-    <body>
-        <main>
-            <header class="top"></header>
-            <nav>
-                <ul>
-                    <li><a href="../../index.html" style="text-decoration: none;color:whitesmoke">Home</a></li>
-                    <li>Movies</li>
-                    <li>Series</li>
-                    <li>Animes</li>
-                    <li>About_Us</li>
-                    <li><form>
-                        <input type="search" id="search" minlength="0" maxlength="20" size="27" placeholder="Search">
-                    </form></li>
-
-                 </ul>
-             </nav>
-
-             <div id="coluna1">
-                 <header style="font-family: Roboto ; font-size: 15px;text-align: center">Movies</header>
-                 <div class="spot_left">
-                     <p class="title_left">Star Wars: The Last Jedi</p>
-                     <img class="images_left" src="imagens/star_wars_lastJedi.jpg" alt="star wars the last jedi">
-                     <p class="sinopse_left">(2017)</p>
-                  </div>
-                  <div class="spot_left">
-                        <p class="title_left">Get Out</p>
-                        <img class="images_left" src="imagens/get_out.jpg" alt="get out">
-                        <p class="sinopse_left">(2017)</p>
-                    </div>
-                    <div class="spot_left">
-                            <p class="title_left">Mad Max: Road of Fury</p>
-                            <img class="images_left" src="imagens/madmax_road_of_fury.jpg" alt="mad max road of fury">
-                            <p class="sinopse_left">(2015)</p>
-                        </div>
-                    <div class="spot_left">
-                            <p class="title_left">Inside Out</p>
-                            <img class="images_left" src="imagens/inside_out.jpg" alt="inside out">
-                            <p class="sinopse_left">(2015)</p>
-                        </div>
-
-                 </div>
-
-             </div>
-             <div id="coluna2">
-                <header style="font-family: Roboto ; font-size: 15px;text-align: center">Series</header>
-                <div class="spot_right">
-                        <p class="title_right"><a href="/contents/series/breaking_bad.html" style="text-decoration: none; color: black">Breaking Bad</a></p>
-                        <a href="/contents/series/breaking_bad.html"><img class="images_right" src="imagens/breaking_bad.jpg" alt="breaking bad"></a>
-                        <p class="sinopse_right">(2008)</p>
+<body>
+    <div class="grid-container">
+        <nav class="grid-item main-nav">
+            <ul class="grid-item">
+                <a  id="home" href="#"><li class="grid-item nav-item">Home</li></a>
+                <a id="filmes" href="#"><li class="grid-item nav-item">Filmes</li></a>
+                <a id="series" href="#"><li class="grid-item nav-item">Series</li></a>
+                <a id="legendas" href="#"><li class="grid-item nav-item">Legendas</li></a>
+            </ul>
+        </nav>
+        <section class="left-column grid-item">
+            <div class="left-content">
+                <div class="left-content header">
+                    <header>
+                        <h2>Series</h2>
+                    </header>
                 </div>
-                <div class="spot_right">
-                        <p class="title_right">Chernobyl</p>
-                        <img class="images_right" src="imagens/chernobyl.jpg" alt="chernobyl">
-                        <p class="sinopse_right">(2019)</p>
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <img src="https://source.unsplash.com/random/200x200" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, perferendis?</p>
+            </div>
+            <div class="left-content">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <img src="https://source.unsplash.com/random/201x200" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, perferendis?</p>
+            </div>
+            <div class="left-content">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <img src="https://source.unsplash.com/random/202x200" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, perferendis?</p>
+            </div>
+            <div class="left-content">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <img src="https://source.unsplash.com/random/203x200" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, perferendis?</p>
+            </div>
+        </section>
+        <section class="grid-item central-column">
+            <div class="central-content">
+                <div class="central-content header">
+                    <header>
+                        <h2>Filmes</h2>
+                    </header>
                 </div>
-                <div class="spot_right">
-                        <p class="title_right">Westworld</p>
-                        <img class="images_right" src="imagens/westworld.jpg" alt="westworld">
-                        <p class="sinopse_right">(2016)</p>
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <img src="https://source.unsplash.com/random/204x200" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque dolorum aperiam iure eos, incidunt
+                    exercitationem amet itaque voluptate dolor delectus!</p>
+            </div>
+            <div class="central-content">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <img src="https://source.unsplash.com/random/205x200" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quidem error repudiandae architecto
+                    vitae quibusdam veritatis accusamus veniam corrupti voluptatum?</p>
+            </div>
+            <div class="central-content">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <img src="https://source.unsplash.com/random/206x200" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quidem error repudiandae architecto
+                    vitae quibusdam veritatis accusamus veniam corrupti voluptatum?</p>
+            </div>
+            <div class="central-content">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <img src="https://source.unsplash.com/random/207x200" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quidem error repudiandae architecto
+                    vitae quibusdam veritatis accusamus veniam corrupti voluptatum?</p>
+            </div>
+            <div class="central-content">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <img src="https://source.unsplash.com/random/208x200" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quidem error repudiandae architecto
+                    vitae quibusdam veritatis accusamus veniam corrupti voluptatum?</p>
+            </div>
+        </section>
+        <section class="grid-item right-column">
+            <div class="right-content">
+                <div class="right-content header">
+                    <h2>Animes</h2>
                 </div>
-                <div class="spot_right">
-                        <p class="title_right">Black Mirror</p>
-                        <img class="images_right" src="imagens/black_mirror.jpg" alt="black mirror">
-                        <p class="sinopse_right">(2015)</p>
-                </div>
-             </div>
-             <div id="coluna3">
-                    <header style="font-family: Roboto ; font-size: 15px;text-align: center;font-weight: bold"><img src="imagens/star.jpg" width="15px" height="15px" margin-right=1px> Best Movies<img src="imagens/star.jpg" width="15px" height="15px" margin-left=1px></header>
-                 <div class="spot_main">
-                    <p class="title_main"><a href="/contents/movies/the_godfather_II.html" style="text-decoration: none; color:black" >The GodFather II</a></p>
-                    <a href="/contents/movies/the_godfather_II.html" style="text-decoration: none; color:black" ><img class="images_main" src="imagens/the_godfather_II.jpg" alt="The godfather II"></a>
-                    <p class="sinopse_main">Francis Ford Coppola's legendary continuation and sequel to his landmark 1972 film, The Godfather, parallels the young Vito Corleone's rise with his son Michael's spiritual fall, deepening The Godfather's depiction of the dark side of the American dream.</p>
-                </div>
-                 <div class="spot_main">
-                    <p class="title_main"><a href="/contents/movies/war_planets_of_apes.html" style="text-decoration: none; color:black"> War for the Planet of the Apes</a></p>
-                    <a href="/contents/movies/war_planets_of_apes.html" style="text-decoration: none; color:black"><img class="images_main" src="imagens/war_planet_apes.jpg" alt="war for the planets of the apes"></a>
-                    <p class="sinopse_main">In War for the Planet of the Apes, the third chapter of the critically acclaimed blockbuster franchise, Caesar and his apes are forced into a deadly conflict with an army of humans led by a ruthless Colonel. After the apes suffer unimaginable losses, Caesar wrestles with his darker instincts and begins his own mythic quest to avenge his kind.</p>
-                 </div>
-                 <div class="spot_main">
-                        <p class="title_main"><a href="/contents/movies/toy_story_3.html" style="text-decoration: none; color:black">Toy Story 3</a></p>
-                        <a href="/contents/movies/toy_story_3.html" style="text-decoration: none; color:black"><img class="images_main" src="imagens/toy_story_3.jpg" alt="toy story 3"></a>
-                        <p class="sinopse_main">"Toy Story 3" welcomes Woody, Buzz and the whole gang back to the big screen as Andy prepares to depart for college and his loyal toys find themselves in... daycare! These untamed tots with their sticky little fingers do not play nice, so it's all for one and one for all as plans for the great escape get underway. </p>
-                     </div>
-             </div>
-            
-             <footer>
-                 <p> Developed by Vandeco - All Rights Reserved - 2019</p>
-             </footer>
 
- 
-    
-                    
-        </main>
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <img src="https://source.unsplash.com/random/209x200" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque dolorum aperiam iure eos,
+                    incidunt
+                    exercitationem amet itaque voluptate dolor delectus!</p>
+            </div>
+            <div class="right-content">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <img src="https://source.unsplash.com/random/210x200" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quidem error repudiandae
+                    architecto
+                    vitae quibusdam veritatis accusamus veniam corrupti voluptatum?</p>
+            </div>
+            <div class="right-content">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <img src="https://source.unsplash.com/random/211x200" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quidem error repudiandae
+                    architecto
+                    vitae quibusdam veritatis accusamus veniam corrupti voluptatum?</p>
+            </div>
+            <div class="right-content">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <img src="https://source.unsplash.com/random/212x200" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quidem error repudiandae
+                    architecto
+                    vitae quibusdam veritatis accusamus veniam corrupti voluptatum?</p>
+            </div>
+    </div>
+    </section>
+    <footer class="grid-item">
+        <p>Vanderson Nascimento&copy; 2019</p>
+    </footer>
+    </div>
 
-    </body>
+
+
+    </div>
+</body>
+
 </html>

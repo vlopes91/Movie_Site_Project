@@ -1,0 +1,224 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #333;
+}
+
+h1,h2,h3 {
+
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    
+}
+
+.grid-item {
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.main-nav {
+   grid-column: 1/span 4; 
+   padding: 10px;
+   margin: 0;
+   background: #333;
+   
+}
+
+.left-column {
+   grid-row: 2 / 3;
+   padding: 1px;
+   margin: 0 auto;
+   height: auto;
+   color: #fff;
+}
+
+.central-column {
+    grid-column: 2 / 4;
+    grid-row: 2 / span 3;
+    padding: 1px;
+    height: auto;
+}
+
+.right-column {
+    grid-column: 4 /5;
+    grid-row: 2 / 3;
+    padding: 1px;
+    height: auto;
+}
+
+/* Menu */
+
+.main-nav ul {
+    display: grid;
+    height: 30px;
+    margin: 0;
+    padding: 5px;
+    grid-gap: 5px;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline;
+    border: 0;
+    padding: 0;
+}
+
+.main-nav a {
+    width: 90%;
+    padding: 5px;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.main-nav a li {
+    text-align: center;
+    padding: 5px;
+}
+.main-nav ul a:hover{
+    background: #555;
+} 
+
+/* Content Appearence */
+
+.left-content,.central-content,.right-content {
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 1px;
+    background: #222;
+    color: #fff;
+}
+
+div.header {
+    padding: 0;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background: #222;
+    color: #fff 
+}
+
+/* Footer */
+
+footer {
+    grid-column: 1 / span 4;
+    background: #333;
+    color: #fff
+}
+
+/* Media Queries */
+
+
+@media (max-device-width:800px) {
+
+     body {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin:0;
+        padding: 0;
+    
+    } 
+    
+    .grid-container{
+        display: grid;
+        grid-gap: 1px;
+        grid-template-columns: 1fr;
+        margin: 0;
+        padding: 0;
+        
+    }
+  
+    .main-nav ul {
+        width: auto;
+        height: auto;
+    }
+
+    .main-nav ul a {
+        margin-bottom: 1px;
+        border: 1px solid lightgray;
+    }
+
+    .main-nav #home {
+        width: 90%;
+        grid-row: 1;
+        row-gap: 1px;
+        grid-column: 1/span 4;
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .main-nav #filmes {
+        width: 90%;
+        grid-row: 2;
+        grid-column: 1/span 4;
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .main-nav #series {
+        width: 90%;
+        grid-row: 3;
+        grid-column: 1/span 4;
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .main-nav #legendas {
+        width: 90%;
+        grid-row: 4;
+        grid-column: 1/span 4;
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+   
+     .main-nav a:hover{
+        background: darkgrey;
+        color: #fff;
+    }
+
+    div.header{
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px;
+        
+    }
+    div.header h2{
+        width: 90%;
+        
+        padding: 10px;
+        margin: 10px auto;
+        text-align: center;
+        background: #333;
+        color: #fff 
+    }
+  
+    .left-column {
+        grid-row: 2;
+        grid-column: 1/span 4;
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .central-column {
+        grid-row: 3;
+        grid-column: 1/span 4;
+        grid-template-columns: 1fr;  
+    }
+
+    .right-column {
+        grid-row: 4;
+        grid-column: 1/span 4; 
+        grid-template-columns: 1fr; 
+    }
+
+    footer {
+        color: #fff
+    }
+}
